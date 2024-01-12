@@ -1,0 +1,532 @@
+body,html{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+
+@media(max-width:1344px) and (min-width:1300px)
+        {
+			
+			.Unlocking{
+				font-weight: 200; 
+				font-size: 30px;
+			 }
+			 .pl{
+				height: 65vh;
+			}
+		}
+
+@media(max-width:1342px) and (min-width:1084px)
+        {
+			
+			.Unlocking{
+				font-weight: 100; 
+				font-size: 20px;
+			 }
+			 .pl{
+				height: 70vh;
+			}
+			 .bh{
+				height: 70vh;
+			 }
+			 .go{
+				height: 100%;
+			 }
+       .aq{
+        height:50vh ;
+        width: auto;
+       }
+		}
+		
+@media(max-width:1084px) and (min-width:985px)
+        {
+			.Unlocking{
+				font-weight: 100; 
+				font-size: 10px;
+			 }
+			 .pl{
+				height: 70vh;
+			}
+			 .bh{
+				height: 70vh;
+			 }
+			 .go{
+				height: 100%;
+			 }
+       .aq{
+        height:50vh ;
+        width: auto;
+       }
+		}
+
+@media(max-width:990px) and (min-width:575px)
+        {
+			.go{
+				padding-top: 10%;
+			 }
+			 .dep{
+				font-size: 34px;
+				font-weight: 100;
+			}
+      .pl{
+        width: 40%;
+      }
+      body {
+        overflow-x: hidden;
+        position: relative;
+
+      }
+		}
+@media(max-width:575px) and (min-width:300px)
+        {
+			.Unlocking{
+				font-weight: 100; 
+				font-size: 10px;
+			 }
+			
+			.Get{
+				margin-left: 10%;
+			}
+			.go{
+				padding-top: 10%;
+			 }
+			 .dep{
+				font-size: 24px;
+				font-weight: 100;
+			}
+      .aq{
+        width:50% ;
+      }
+		}
+.Unlocking{
+   font-weight: 200; 
+   font-size: 60px;
+}
+.go{
+	width: 100%;
+
+}
+.bh{
+	width: 100%;
+}
+.pl{
+	width: 100%;
+}
+.aq{
+  width: 100%;
+  position: relative;
+
+}
+.gh{
+	width: 31%;
+}
+
+.Diverse{
+	text-align: center;
+}
+
+
+.nav-t{
+    color: black;
+    text-decoration: none;
+  
+  }
+  
+  .nav-t:hover{
+    color: white;
+    background-color: rgb(73, 73, 133);
+  }
+
+  .Unlocking{
+    font-weight: 300; 
+    font-size: 60px;
+ }
+ .Learn{
+    background-color: rgb(22, 89, 212);
+    color: white;
+    border-radius:20px;
+    border:1px solid rgb(22, 89, 212);
+}
+.li{
+    background-image: linear-gradient( white,rgb(209, 212, 214));
+}
+.Welcome{
+    color: rgb(53, 53, 228);
+}
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background:rgb(59, 59, 151);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+.port{
+	text-align: center;
+ color:#555
+}
+.port:hover{
+	color: rgb(59, 59, 167);
+}
+a .im:last-child {
+	display: none;  
+  }
+  a:hover .im:last-child {
+	display: block;  
+  }
+  a:hover .im:first-child {
+	display: none;  
+}
+.home{
+	border-bottom: 1px solid rgb(198, 206, 206);
+	border-top: 1px solid rgb(198, 206, 206);
+}
+.locat{
+	border:1px solid rgb(198, 206, 206);
+}
+.Diverse{
+	text-align: center;
+}
+.micro{
+	border:1px solid rgb(198, 206, 206);
+	background-color: white;
+}
+.micro:hover{
+	border:1px solid  rgb(59, 59, 167);
+}
+section{
+	background-color:aliceblue;
+	padding-top:2%;
+	padding-bottom: 2%;
+}
+.box1{
+	background-color: rgb(69, 69, 161);
+}
+.Call{
+	font-size: 14px;
+}
+.box2{
+	background-color: #7AA641;
+}
+.tel{
+	color: #000;
+	text-decoration: none;
+}
+.pack{
+    background-color:RGB(152, 180, 212);
+  }
+.pack:hover{
+    color:white;
+    background-color: rgb(92, 202, 116);
+  }
+.from{
+    color: blue;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    top:10px;
+    margin-left: 17%;
+  }
+  .wrapper{
+    position: relative;
+    width: 100%;
+    background: radial-gradient(#4768ad 50%, #6262ee 100%);
+    overflow: hidden;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .wrapper img,.clo:hover {
+    transform: scale(1.3);
+    transition: 0.3s ease-out;
+  }
+  
+  .wrapper:hover img,.clo:hover {
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+  }
+  .overlaying .link-a:hover,.clo:hover {
+    background: rgb(95, 199, 10);
+  }
+  
+  .wrapper:hover .overlaying .text-h1 ,.clo:hover{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .wrapper:hover .overlaying .text-p,.clo:hover {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .wrapper:hover .overlaying .link-a,.clo:hover {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .overlaying {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  .wrapper:hover .overlaying {
+    opacity: .7;
+  
+  
+  }
+  
+  
+  .text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .bor{
+	background-color: white;
+  }
+  .bor:hover{
+	border: 1px solid rgb(66, 66, 165);
+  }
+  .dolor{
+    color: #000;
+    }
+    .mar{
+      border-top: 1px solid rgb(202, 196, 196);
+    }
+    .image{
+      background-color: rgb(206, 203, 203);
+      border-radius: 50%;
+    }
+    .con{
+      border:1px solid blue;
+    }
+    .tex{
+      text-align: center;
+    }
+    .Lear{
+      background-color: rgb(22, 89, 212);
+        color: white;
+        border:1px solid rgb(22, 89, 212);	
+    }
+    .box{
+      background-color: #7AA641;
+    }
+    footer{
+      background-color:aliceblue;
+    }
+    .Call{
+      font-size: 14px;
+    }
+    .Book{
+      border-radius:100px;
+      color: #7AA641;
+      background-color: #000;
+      border: #000;
+    }
+    .Book:hover{
+      background-color: rgb(72, 72, 182);
+      color:white;
+    }
+
+    .face{
+      border-radius: 45%;
+    }
+    .square{
+      border-radius: 45%;
+      background-color:  rgb(25, 159, 177);
+      color: #e6e6e6;
+    
+    }
+    .linkedin{
+      border-radius: 45%;
+    }
+    .about{
+      font-size: 64px;
+      font-weight: 400;
+  }
+  .colo{
+    background-image: linear-gradient( white,rgb(193, 218, 235));
+}
+  .welcome{
+      letter-spacing: 0.5px;
+      font-size: 20px;
+      font-weight: 200;
+  }
+  .Boo{
+      text-align: center;
+  }
+  .Experience{
+      font-size: 14px;
+      color: #918b8b;
+      font-weight: 300;
+      text-align: center;
+  
+  }
+  /* .more{
+  margin-left: 50px;
+  } */
+  .go{
+      width: 100%;
+  }
+  .Precision{
+    font-size: 34px;
+    font-weight: 500;
+  }
+  .HAEMATOLOGY{
+    background-color: #a7c97a;
+  }
+  .Hb{
+    background-color: #dbd9d9;
+  }
+  /* .Stool{
+    background-color: #999;
+  } */
+  .DIABETIC{
+    color: rgb(72, 72, 133);
+  }
+  .dep{
+      font-size: 64px;
+      font-weight: 400;
+  }
+  .nav-t{
+    color: black;
+    text-decoration: none;
+  
+  }
+.about{
+    font-size: 64px;
+    font-weight: 400;
+}
+.colo{
+    background-image: linear-gradient( white,rgb(193, 218, 235));
+}
+.welcome{
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.back12{
+    background-color: rgb(175, 209, 224);
+}
+.demo>[class*='col-']
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.dep{
+    font-size: 64px;
+    font-weight: 400;
+}
+.pack{
+  background-color:RGB(152, 180, 212);
+}
+.pack:hover{
+  color:white;
+  background-color: rgb(92, 202, 116);
+}
+
+.from{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  margin-left: 15%;
+}
+.Ayush{
+  color: black;
+  text-decoration: none;
+}
+.Ayush:hover{
+  color:white;
+  background-color:RGB(0, 155, 119);
+  text-decoration: none;
+
+}
+.from1{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  margin-left: 17%;
+}
+.from2{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  margin-left: 17%;
+}
+.from3{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:370px;
+  margin-left: 17%;
+}
+.from4{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:370px;
+  margin-left: 17%;
+}  
+.cla{
+  background-color: #4768ad;
+  color: white;
+  text-align: center;
+}
+.Ayush{
+  text-decoration: none;
+}
+.deco{
+  text-decoration: none;
+}
+a.Ayush{  text-decoration: none;
+}
